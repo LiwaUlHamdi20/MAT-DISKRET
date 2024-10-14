@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: HIMPUNAN
 
 ---
 
@@ -31,12 +31,12 @@ $A \cup \emptyset = \{ x \mid x \in A \}$
 
 Ini setara dengan himpunan $A$ itu sendiri
 
-*Definisi*:
+Definisi:
 - $\cup$ adalah simbol untuk operasi union (gabungan) dalam teori himpunan.
 - $\emptyset$ adalah himpunan kosong, yaitu himpunan yang tidak memiliki elemen.
 - $A$ adalah himpunan apa pun.
 
-*Penjelasan*:
+Penjelasan:
 Operasi union antara himpunan $A$ dan himpunan kosong  $\emptyset$ berarti kita menggabungkan semua elemen dari kedua himpunan tersebut. Karena $\emptyset$ tidak memiliki elemen, maka gabungan dari $A$ dan $\emptyset$ hanya akan berisi elemen-elemen dari $A$ itu sendiri.
 
 Secara formal:
@@ -44,21 +44,21 @@ $A \cup \emptyset = A$
 
 Artinya, jika Anda menggabungkan himpunan $A$ dengan himpunan kosong, hasilnya tetap $A$. Himpunan kosong tidak mempengaruhi hasil gabungan karena tidak ada elemen yang ditambahkan.
 
-*Contoh:*
+Contoh:
 Jika $𝐴 =\{1,2,3\},\text {maka} 𝐴 \cup \emptyset =\{1,2,3\}$
 
 ### 2. Himpunan $A \cap U = A$
 
-*$A \cap U = \{ x \mid x \in A \text{ dan } x \in U \}$*
+$A \cap U = \{ x \mid x \in A \text{ dan } x \in U \}$
 
 Karena $𝑈$ adalah ruang semesta yang mencakup semua elemen yang relevan, setiap elemen $𝑥$ dari $𝐴$ juga merupakan elemen dari $𝑈$,ini menyatakan bahwa irisan antara $𝐴$ dan $𝑈$ adalah himpunan $𝐴$ itu sendiri,karena $𝑈$ tidak mengubah himpunan $𝐴$
 
-*Definisi*:
+Definisi:
 - $\cap$ adalah simbol untuk operasi irisan (intersection) dalam teori himpunan.
 - $U$ biasanya digunakan untuk menyebut himpunan semesta, yaitu himpunan yang memuat semua elemen yang relevan dalam konteks tertentu.
 - $A$ adalah himpunan apa pun.
 
-*Penjelasan*:
+Penjelasan:
 Operasi irisan antara himpunan $A$ dan himpunan semesta $U$ berarti kita mencari elemen yang ada di kedua himpunan tersebut. Karena $U$ adalah himpunan semesta, semua elemen dari $A$ sudah tentu termasuk dalam $U$.
 
 Secara formal:
@@ -66,7 +66,7 @@ $A \cap U = A$
 
 Artinya, jika Anda mengambil irisan himpunan $A$ dengan himpunan semesta $U$, hasilnya adalah himpunan $A$ itu sendiri. Ini karena $U$ mencakup semua elemen yang ada dalam $A$, sehingga irisan dari $A$ dengan $U$ tidak menghilangkan elemen apa pun dari $A$.
 
-*Contoh:*
+Contoh:
 
 Jika $𝑈$ $=\{1,2,3,4,5\}$ dan $𝐴$ $=/{1,2,3/}$, maka $A \cap U=\{1,2,3\}$.
 
@@ -78,19 +78,19 @@ Jika $𝑈$ $=\{1,2,3,4,5\}$ dan $𝐴$ $=/{1,2,3/}$, maka $A \cap U=\{1,2,3\}$.
 ### $\Diamond$ Hukum Dominasi
 ### 1. Hukum Gabungan  $A \cup U = U$
 
-*Pernyataan:*
+Pernyataan:
 
 $A\cup U=\{ x \mid x \in A atau x \in U\}$
 
 Karena $𝑈$ adalah ruang semesta yang mencakup semua elemen, maka kondisi $𝑥 \in 𝑈$ selalu benar jika $𝑥$ berada di $𝑈$,Karena $𝑥 \in 𝑈$ mencakup semua elemen dalam konteks tersebu
 
-*Penjelasan:*
+Penjelasan:
 
-- *Gabungan (Union):* Gabungan antara dua himpunan $A$ dan $U$, ditulis sebagai $A \cup U$, adalah himpunan yang berisi semua elemen yang ada di $A$ atau di $U$ atau di keduanya.
+- Gabungan (Union): Gabungan antara dua himpunan $A$ dan $U$, ditulis sebagai $A \cup U$, adalah himpunan yang berisi semua elemen yang ada di $A$ atau di $U$ atau di keduanya.
 
-- *Ruang Semesta $U$:* Ruang semesta $U$ adalah himpunan yang mencakup semua elemen yang relevan dalam konteks tertentu. Dengan kata lain, $U$ adalah himpunan yang mencakup semua elemen yang mungkin dalam sistem yang sedang dibahas.
+- Ruang Semesta $U$: Ruang semesta $U$ adalah himpunan yang mencakup semua elemen yang relevan dalam konteks tertentu. Dengan kata lain, $U$ adalah himpunan yang mencakup semua elemen yang mungkin dalam sistem yang sedang dibahas.
 
-*Contoh:*
+Contoh:
 
 Misalkan $U$ adalah ruang semesta yang mencakup semua bilangan bulat dari 1 hingga 10, dan $A$ adalah himpunan bilangan genap dari 1 hingga 10. Jadi, kita punya:
 
@@ -106,19 +106,19 @@ $\{2, 4, 6, 8, 10\} \cup \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\} = \{1, 2, 3, 4, 5, 6,
 
 ### 2. Hukum Irisan dengan Himpunan Kosong: $A \cap \emptyset = \emptyset$
 
-*Pernyataan:*
+Pernyataan:
 
 $A \cap \emptyset =\{x \mid x \in A dan x \in \emptyset \}$
 
 Karena tidak ada elemen yang berada di $\emptyset$, kondisi $𝑥 \in \emptyset$ selalu salah. Dengan demikian, irisan $𝐴 \cap \emptyset$ tidak mengandung elemen apapun
 
-*Penjelasan:*
+Penjelasan:
 
-- *Irisan (Intersection):* Irisan antara dua himpunan $A$ dan $\emptyset$, ditulis sebagai $A \cap \emptyset$, adalah himpunan yang berisi semua elemen yang ada di kedua himpunan tersebut.
+- Irisan (Intersection): Irisan antara dua himpunan $A$ dan $\emptyset$, ditulis sebagai $A \cap \emptyset$, adalah himpunan yang berisi semua elemen yang ada di kedua himpunan tersebut.
 
-- *Himpunan Kosong $\emptyset$:* Himpunan kosong adalah himpunan yang tidak memiliki elemen sama sekali. Dengan kata lain, tidak ada elemen $x$ yang memenuhi kondisi $x \in \emptyset$.
+- Himpunan Kosong $\emptyset$: Himpunan kosong adalah himpunan yang tidak memiliki elemen sama sekali. Dengan kata lain, tidak ada elemen $x$ yang memenuhi kondisi $x \in \emptyset$.
 
-*Contoh:*
+Contoh:
 
 Misalkan $A$ adalah himpunan bilangan genap dari 1 hingga 10, dan $\emptyset$ adalah himpunan kosong:
 
@@ -133,21 +133,21 @@ $\{2, 4, 6, 8, 10\} \cap \{\} = \{\}$
 
 ### Kesimpulan
 
-- *$A \cup U =U$ :* Gabungan antara himpunan $A$ dengan ruang semesta $U$ adalah ruang semesta $U$ itu sendiri, karena ruang semesta sudah mencakup semua elemen yang mungkin.
+- $A \cup U =U$ : Gabungan antara himpunan $A$ dengan ruang semesta $U$ adalah ruang semesta $U$ itu sendiri, karena ruang semesta sudah mencakup semua elemen yang mungkin.
 
-- *$A \cap \emptyset = \emptyset$:* Irisan antara himpunan $A$ dan himpunan kosong $\emptyset$ adalah himpunan kosong $\emptyset$, karena tidak ada elemen di himpunan kosong yang dapat beririsan dengan elemen di $A$. 
+- $A \cap \emptyset = \emptyset$: Irisan antara himpunan $A$ dan himpunan kosong $\emptyset$ adalah himpunan kosong $\emptyset$, karena tidak ada elemen di himpunan kosong yang dapat beririsan dengan elemen di $A$. 
 
 Kedua hukum ini adalah dasar penting dalam teori himpunan dan membantu dalam menyederhanakan ekspresi himpunan serta dalam pemahaman dasar tentang bagaimana operasi himpunan berfungsi.
 
 ### $\Diamond$ Hukum idempoten
 ### 1. Irisan Himpunan dengan Diri Sendiri: $𝐴 \cap 𝐴$
-*Pernyataan:*
+Pernyataan:
 
 $A \cap A =\{x \mid x \in A dan x \in A \}$
 
 Karena $𝑥 \in 𝐴$ dan $𝑥 \in 𝐴$ hanya memberikan $𝑥 \in 𝐴$
 
-*Penjelasan:*
+Penjelasan:
 
 Irisan (Intersection): Irisan antara dua himpunan $𝐴$ dan $𝐵$, yang ditulis sebagai $𝐴 \cap 𝐵$, adalah himpunan yang berisi semua elemen yang ada di kedua himpunan tersebut.
 
@@ -159,13 +159,13 @@ Misalkan $A=\{1,2,3\}. \text{maka}: A∩A=\{1,2,3\}$
 
 ### 2. Gabungan Himpunan dengan Diri Sendiri: $A \cup A$
 
-*Pernyataan:*
+Pernyataan:
 
 $A \cup A = \{ x \mid x \in A \text{ atau } x \in A \} = A$
 
 Karena $𝑥 \in 𝐴$ atau $𝑥 \in 𝐴$ hanya memberikan $𝑥 \in 𝐴$,
 
-*Penjelasan:*
+Penjelasan:
 
 Gabungan (Union): Gabungan antara dua himpunan 𝐴 dan 𝐵, yang ditulis sebagai $𝐴 \cup 𝐵$, adalah himpunan yang berisi semua elemen yang ada di $𝐴$ atau di $𝐵$ atau di keduanya.
 
@@ -176,7 +176,7 @@ Contoh:
 Misalkan 
 $A=\{1,2,3\}$. Maka: $𝐴∪𝐴=\{1,2,3\}$
 
-*Kesimpulan:*
+Kesimpulan:
 
 - Irisan dengan Diri Sendiri (𝐴∩𝐴): Menghasilkan himpunan itu sendiri, 𝐴, karena setiap elemen yang ada di 𝐴 pasti berada di 𝐴 lagi.
 - Gabungan dengan Diri Sendiri (𝐴∪𝐴): Menghasilkan himpunan itu sendiri, 𝐴, karena gabungan himpunan 𝐴 dengan dirinya sendiri tidak menambah elemen baru.
@@ -189,19 +189,19 @@ Tentu! Hukum terkait himpunan komplemen dari komplemen adalah salah satu hukum d
 
 ### Komplemen dari Komplemen Himpunan: $\overline{\overline{A}} = A$
 
-*Pernyataan:*
+Pernyataan:
 
 $\overline{\overline{A}} = \{ x \mid x \in U \text{ dan } x \notin \overline{A} \} = \{ x \mid x \in U \text{ dan } x \in A \} = A$
 
-*Penjelasan:*
+Penjelasan:
 
-- *Komplemen Himpunan $A (\overline{A)}$*: Komplemen dari himpunan $A$ adalah himpunan semua elemen yang tidak berada di $A$, tetapi berada di ruang semesta $U$. Dalam notasi set-builder, ini dapat dinyatakan sebagai:
+- Komplemen Himpunan $A (\overline{A)}$: Komplemen dari himpunan $A$ adalah himpunan semua elemen yang tidak berada di $A$, tetapi berada di ruang semesta $U$. Dalam notasi set-builder, ini dapat dinyatakan sebagai:
   
   $\overline{A} = \{ x \mid x \in U \text{ dan } x \notin A \}$
 
-- *Komplemen dari Komplemen*: Jika kita mengambil komplemen dari $\overline{A}$, kita mencari himpunan semua elemen yang tidak berada di $\overline{A}$. Namun,$\overline{A}$ sendiri adalah himpunan elemen yang tidak berada di $A$. Jadi, komplemen dari $\overline{A}$ adalah himpunan yang kembali ke himpunan $A$, karena semua elemen di luar $A$ adalah elemen dari $\overline{A}$, dan komplemennya adalah himpunan $A$ itu sendiri.
+- Komplemen dari Komplemen: Jika kita mengambil komplemen dari $\overline{A}$, kita mencari himpunan semua elemen yang tidak berada di $\overline{A}$. Namun,$\overline{A}$ sendiri adalah himpunan elemen yang tidak berada di $A$. Jadi, komplemen dari $\overline{A}$ adalah himpunan yang kembali ke himpunan $A$, karena semua elemen di luar $A$ adalah elemen dari $\overline{A}$, dan komplemennya adalah himpunan $A$ itu sendiri.
 
-*Matematis:*
+Matematis:
 
 1. Misalkan $U$ adalah ruang semesta.
 2. Komplemen $A$ adalah: 
@@ -216,7 +216,7 @@ $\overline{\overline{A}} = \{ x \mid x \in U \text{ dan } x \notin \overline{A} 
 
    $\overline{\overline{A}} = U \setminus (U \setminus A)$
 
-*Contoh:*
+Contoh:
 
 Misalkan $U = \{1, 2, 3, 4, 5\} dan A = \{2, 4\}$.
 
@@ -235,8 +235,8 @@ $\overline{\overline{A}} = A$
 
 ### Kesimpulan
 
-- *Komplemen dari Komplemen $(\overline{\overline{A}})$*: Menghasilkan himpunan asli $A$. Ini berarti jika Anda mengambil komplemen dari himpunan komplemen, Anda akan kembali ke himpunan awal.
-- *Hukum ini*: Menunjukkan bahwa operasi komplemen adalah operasi invers, yaitu melakukan komplemen dua kali akan kembali ke himpunan yang asli.
+- Komplemen dari Komplemen $(\overline{\overline{A}})$: Menghasilkan himpunan asli $A$. Ini berarti jika Anda mengambil komplemen dari himpunan komplemen, Anda akan kembali ke himpunan awal.
+- Hukum ini: Menunjukkan bahwa operasi komplemen adalah operasi invers, yaitu melakukan komplemen dua kali akan kembali ke himpunan yang asli.
 
 Hukum ini penting dalam teori himpunan dan logika karena menunjukkan sifat invers dari operasi komplemen. Ini juga merupakan dasar untuk memahami hubungan antara himpunan dan operasi logika dalam matematika dan ilmu komputer.
 
@@ -246,14 +246,14 @@ Tentu! Hukum komutatif adalah salah satu hukum dasar dalam teori himpunan dan al
 
 ### 1. Hukum Komutatif untuk Gabungan (Union):$A \cup B = B \cup A$
 
-*Pernyataan:*
+Pernyataan:
 
 $A \cup B = \{ x \mid x \in A \text{ atau } x \in B \}=B \cup A = \{ x \mid x \in B \text{ atau } x \in A \}$
 
-*Penjelasan:*
+Penjelasan:
 - Hukum komutatif untuk gabungan menyatakan bahwa gabungan dari dua himpunan $A$ dan $B$ tidak terpengaruh oleh urutan himpunan. Dengan kata lain, gabungan $A$ dengan $B$ menghasilkan himpunan yang sama dengan gabungan $B$ dengan $A$.
 
-*Contoh:*
+Contoh:
 Jika $A = \{1, 2\}$ dan $B = \{2, 3\}$, maka:
 
 $A \cup B = \{1, 2, 3\}$
@@ -266,14 +266,14 @@ $A \cup B = B \cup A$
 
 ### 2. Hukum Komutatif untuk Irisan (Intersection): $A \cap B = B \cap A$
 
-*Pernyataan:*
+Pernyataan:
 
 $A \cap B = \{ x \mid x \in A \text{ dan } x \in B \} = B \cap A = \{ x \mid x \in B \text{ dan } x \in A \}$
 
-*Penjelasan:*
+Penjelasan:
 - Hukum komutatif untuk irisan menyatakan bahwa irisan dari dua himpunan $A$ dan $B$ tidak terpengaruh oleh urutan himpunan. Dengan kata lain, irisan $A$ dengan $B$ menghasilkan himpunan yang sama dengan irisan $B$ dengan $A$.
 
-*Contoh:*
+Contoh:
 
 Jika $A = \{1, 2\}$ dan $B = \{2, 3\}$, maka:
 
@@ -287,9 +287,9 @@ $A \cap B = B \cap A$
 
 ### Kesimpulan
 
-- *Hukum Komutatif untuk Gabungan (Union):* Mengatakan bahwa $A \cup B = B \cup A$.
-- *Hukum Komutatif untuk Irisan (Intersection):* Mengatakan bahwa $A \cap B = B \cap A$.
-- *Hukum Komutatif dalam Aljabar:* Mengatakan bahwa urutan dalam penjumlahan dan perkalian tidak mempengaruhi hasil, yaitu $a + b = b + a$ dan $a \cdot b = b \cdot a$.
+- Hukum Komutatif untuk Gabungan (Union): Mengatakan bahwa $A \cup B = B \cup A$.
+- Hukum Komutatif untuk Irisan (Intersection): Mengatakan bahwa $A \cap B = B \cap A$.
+- Hukum Komutatif dalam Aljabar: Mengatakan bahwa urutan dalam penjumlahan dan perkalian tidak mempengaruhi hasil, yaitu $a + b = b + a$ dan $a \cdot b = b \cdot a$.
 
 Hukum komutatif adalah dasar penting dalam berbagai cabang matematika, memastikan bahwa urutan operasi tidak mempengaruhi hasil akhir.
 
@@ -299,15 +299,15 @@ Hukum asosiatif dalam teori himpunan adalah prinsip yang menunjukkan bahwa cara 
 
 ### 1. Hukum Asosiatif untuk Gabungan (Union): $(A \cup B) \cup C = A \cup (B \cup C)$**
 
-*Pernyataan:*
+Pernyataan:
 
 $(A \cup B) \cup C = \{ x \mid x \in (A \cup B) \text{ atau } x \in C \}$ = $A \cup (B \cup C) = \{ x \mid x \in A \text{ atau } x \in (B \cup C) \}$
 
-*Penjelasan:*
+Penjelasan:
 
 - Hukum asosiatif untuk gabungan menyatakan bahwa gabungan dari tiga himpunan tidak terpengaruh oleh cara kita mengelompokkan himpunan-himpunan tersebut. Baik kita menggabungkan $A$ dengan $B$ terlebih dahulu dan kemudian dengan $C$, atau kita menggabungkan $B$ dengan $C$ terlebih dahulu dan kemudian dengan $A$, hasilnya akan tetap sama.
 
-*Contoh:*
+Contoh:
 
 Jika $A = \{1\}$, $B = \{2\}$, dan $C = \{3\}$, maka:
 
@@ -321,15 +321,15 @@ $(A \cup B) \cup C = A \cup (B \cup C)$
 
 ### 2. Hukum Asosiatif untuk Irisan (Intersection): $(A \cap B) \cap C = A \cap (B \cap C)$
 
-*Pernyataan:*
+Pernyataan:
 
 $(A \cap B) \cap C = \{ x \mid x \in A \text{ dan } x \in B \text{ dan } x \in C \}$  = $A \cap (B \cap C) = \{ x \mid x \in A \text{ dan } x \in B \text{ dan } x \in C \}$
 
-*Penjelasan:*
+Penjelasan:
 
 - Hukum asosiatif untuk irisan menyatakan bahwa irisan dari tiga himpunan tidak terpengaruh oleh cara kita mengelompokkan himpunan-himpunan tersebut. Baik kita mengiris $A$ dengan $B$ terlebih dahulu dan kemudian dengan $C$, atau kita mengiris $B$ dengan $C$ terlebih dahulu dan kemudian dengan $A$, hasilnya akan tetap sama.
 
-*Contoh:*
+Contoh:
 
 Jika $A = \{1, 2\}$, $B = \{2, 3\}$, dan $C = \{2, 4\}$, maka:
 
@@ -344,11 +344,11 @@ $(A \cap B) \cap C = A \cap (B \cap C)$
 
 ### Kesimpulan
 
-- *Hukum Asosiatif untuk Gabungan (Union):* Mengatakan bahwa gabungan dari tiga himpunan $A$, $B$, dan $C$ tidak terpengaruh oleh cara kita mengelompokkan himpunan-himpunan tersebut.
+- Hukum Asosiatif untuk Gabungan (Union): Mengatakan bahwa gabungan dari tiga himpunan $A$, $B$, dan $C$ tidak terpengaruh oleh cara kita mengelompokkan himpunan-himpunan tersebut.
   
   $(A \cup B) \cup C = A \cup (B \cup C)$
 
-- *Hukum Asosiatif untuk Irisan (Intersection):* Mengatakan bahwa irisan dari tiga himpunan $A$, $B$, dan $C$ tidak terpengaruh oleh cara kita mengelompokkan himpunan-himpunan tersebut.
+- Hukum Asosiatif untuk Irisan (Intersection): Mengatakan bahwa irisan dari tiga himpunan $A$, $B$, dan $C$ tidak terpengaruh oleh cara kita mengelompokkan himpunan-himpunan tersebut.
   
   $(A \cap B) \cap C = A \cap (B \cap C)$
 
@@ -360,29 +360,29 @@ Hukum asosiatif memastikan bahwa cara pengelompokan himpunan dalam operasi gabun
 
 ### 1.Hukum Distributif Union terhadap Intersection: $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
 
-*Pernyataan:*
+Pernyataan:
 
 $A \cup (B \cap C) = (A \cup B) \cap (A \cup C) = \{x \mid x \in A dan (x \in B atau x \in C)\}=\{x \mid(x 
 \in A dan x \in B) atau (x \in A dan x \in C)\}$
 
-*Penjelasan:*
-- *Sisi Kiri*: $A \cup (B \cap C)$
+Penjelasan:
+- Sisi Kiri: $A \cup (B \cap C)$
   - Ini berarti kita mengambil gabungan dari himpunan $A$ dengan irisan $B$ dan $C$. Artinya, kita akan menyertakan semua elemen yang ada di $A$ ditambah semua elemen yang ada di $B$ dan $C$ secara bersamaan.
 
-- *Sisi Kanan*: $(A \cup B) \cap (A \cup C)$
+- Sisi Kanan: $(A \cup B) \cap (A \cup C)$
   - Ini berarti kita pertama-tama mengambil gabungan $A$ dengan $B$, dan gabungan $A$ dengan $C$, lalu kita mengambil irisan dari kedua gabungan tersebut. Artinya, kita akan menyertakan elemen-elemen yang ada di kedua gabungan tersebut.
 
-*Contoh:*
+Contoh:
 
 Misalkan $A = \{1, 2\}$,$B = \{2, 3\}$, dan $C = \{3, 4\}$.
 
-- *Sisi Kiri*:
+- Sisi Kiri:
   
   $B \cap C = \{3\}$
   
   $A \cup (B \cap C) = \{1, 2\} \cup \{3\} = \{1, 2, 3\}$
 
-- *Sisi Kanan*:
+- Sisi Kanan:
   
   $A \cup B = \{1, 2\} \cup \{2, 3\} = \{1, 2, 3\}$
   
@@ -394,29 +394,29 @@ Kedua sisi menghasilkan himpunan yang sama: $\{1, 2, 3\}$.
 
 ### 2.Hukum Distributif Intersection terhadap Union: $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
 
-*Pernyataan:*
+Pernyataan:
 
 $A \cap (B \cup C) = (A \cap B) \cup (A \cap C) = \{x \mid x \in A dan (x \in B atau x \in C)\}=\{x \mid(x 
 \in A dan x \in B) atau (x \in A dan x \in C)\}$
 
-*Penjelasan:*
-- *Sisi Kiri*: $A \cap (B \cup C)$
+Penjelasan:
+- Sisi Kiri: $A \cap (B \cup C)$
   - Ini berarti kita mengambil irisan dari himpunan $A$ dengan gabungan $B$ dan $C$. Artinya, kita mencari elemen yang ada di $A$ dan juga ada di gabungan $B$ dan $C$.
 
-- *Sisi Kanan*: $(A \cap B) \cup (A \cap C)$
+- Sisi Kanan: $(A \cap B) \cup (A \cap C)$
   - Ini berarti kita pertama-tama mengambil irisan $A$ dengan $B$, dan irisan $A$ dengan $C$, lalu kita gabungkan hasil irisan tersebut. Artinya, kita akan menyertakan elemen-elemen yang ada di $A$ dan juga ada di $B$ atau di $C$.
 
-*Contoh:*
+Contoh:
 
 Misalkan $A = \{1, 2, 3\}$,$B = \{2, 3, 4\}$, dan $C = \{3, 4, 5\}$.
 
-- *Sisi Kiri*:
+- Sisi Kiri:
   
   $B \cup C = \{2, 3, 4\} \cup \{3, 4, 5\} = \{2, 3, 4, 5\}$
   
   $A \cap (B \cup C) = \{1, 2, 3\} \cap \{2, 3, 4, 5\} = \{2, 3\}$
 
-- *Sisi Kanan*:
+- Sisi Kanan:
   
   $A \cap B = \{1, 2, 3\} \cap \{2, 3, 4\} = \{2, 3\}$
   
@@ -437,17 +437,17 @@ Hukum De Morgan untuk himpunan terdiri dari dua hukum yang saling berhubungan. M
 
 ### 1.Hukum De Morgan untuk Gabungan: $\overline{A \cup B} = \overline{A} \cap \overline{B}$
 
-*Pernyataatn*
+Pernyataatn
 
 $\overline{A \cup B} = \overline{A} \cap \overline{B}=\{x \mid x \notin A \cup B\}=\{x \mid x \notin A \text{ dan }x \notin B\}$
 
-*Penjelasan*: 
+Penjelasan: 
 - $A \cup B$ adalah himpunan yang terdiri dari semua elemen yang berada di $A$, di $B$, atau di kedua himpunan tersebut.
 - Negasi dari $A \cup B$ , yang ditulis sebagai $ \overline{A}$, adalah himpunan yang terdiri dari semua elemen yang tidak berada di $A \cup B$.
 - $\overline A$ adalah himpunan yang terdiri dari semua elemen yang tidak berada di $A$, dan $\overline B$ adalah himpunan yang terdiri dari semua elemen yang tidak berada di $B$.
 - Jadi, $\overline{A}  \cap \overline B$ adalah himpunan yang terdiri dari semua elemen yang tidak berada di $A$ dan juga tidak berada di $B$.
 
-*Contoh*:
+Contoh:
 - Misalkan $A = \{1, 2, 3\}$ dan $B = \{3, 4, 5\}$. 
 - Maka $A \cup B = \{1, 2, 3, 4, 5\}$.
 - Negasi dari $A \cup B$ dalam konteks semesta $U = \{1, 2, 3, 4, 5, 6\}$ adalah $\{6\}$.
@@ -456,17 +456,17 @@ $\overline{A \cup B} = \overline{A} \cap \overline{B}=\{x \mid x \notin A \cup B
 
 ### 2.Hukum De Morgan untuk Irisan: $\overline{A \cap B} = \overline{A} \cup \overline{B}$
 
-*Pernyataan*
+Pernyataan
 
 $\overline{A \cap B} = \overline{A} \cup \overline{B}=\{x \mid x \notin A \cap B\}=\{x \mid x \notin A \text{ atau }x \notin B\}$
 
-*Penjelasan*:
+Penjelasan:
 - $A \cap B$ adalah himpunan yang terdiri dari semua elemen yang berada di kedua himpunan $A$ dan $B$.
 - Negasi dari $A \cap B$, yang ditulis sebagai $(\overline{A \cap B})$, adalah himpunan yang terdiri dari semua elemen yang tidak berada di $A \cap B$.
 - $\overline{A}$ adalah himpunan yang terdiri dari semua elemen yang tidak berada di $A$, dan $\overline{B}$ adalah himpunan yang terdiri dari semua elemen yang tidak berada di $B$.
 - Jadi, $\overline{A} \cup \overline{B}$  adalah himpunan yang terdiri dari semua elemen yang tidak berada di $A$ atau tidak berada di $B$.
 
-*Contoh*:
+Contoh:
 - Dengan $A = \{1, 2, 3\}$ dan  $B = \{3, 4, 5\} \
 - $A \cap B = \{3\}$.
 - Negasi dari $A \cap B$  dalam konteks semesta $U = \{1, 2, 3, 4, 5, 6\}$ adalah $\{1, 2, 4, 5, 6\}$.
