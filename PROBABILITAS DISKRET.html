@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Logika Matematika &#8212; My sample book</title>
+    <title>Probabilitas Diskret &#8212; My sample book</title>
   
   
   
@@ -60,13 +60,10 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'logika dan pembuktian';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'PROBABILITAS DISKRET';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Algoritma" href="ALGORITMA.html" />
-    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+    <link rel="prev" title="Aljabar Boolean dan gerbang logika" href="aljabar%20boolean%20dan%20gerbang%20logika.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -171,12 +168,12 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Logika Matematika</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logika%20dan%20pembuktian.html">Logika Matematika</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ALGORITMA.html">Algoritma</a></li>
 <li class="toctree-l1"><a class="reference internal" href="HIMPUNAN.html">HIMPUNAN</a></li>
 <li class="toctree-l1"><a class="reference internal" href="aljabar%20boolean%20dan%20gerbang%20logika.html">Aljabar Boolean dan gerbang logika</a></li>
 
-<li class="toctree-l1"><a class="reference internal" href="PROBABILITAS%20DISKRET.html">Probabilitas Diskret</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Probabilitas Diskret</a></li>
 </ul>
 
     </div>
@@ -248,7 +245,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Flogika dan pembuktian.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FPROBABILITAS DISKRET.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -278,7 +275,7 @@
       
       
       
-      <li><a href="_sources/logika dan pembuktian.md" target="_blank"
+      <li><a href="_sources/PROBABILITAS DISKRET.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -354,7 +351,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Logika Matematika</h1>
+    <h1>Probabilitas Diskret</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -364,11 +361,11 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#negasi">Negasi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konjungsi">Konjungsi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#disjungsi">Disjungsi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implikasi">Implikasi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#biimplikasi">Biimplikasi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengertian-probabilitas">Pengertian Probabilitas</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rumus-probabilitas">Rumus Probabilitas</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teorema-bayes">Teorema Bayes</a></li>
 </ul>
             </nav>
         </div>
@@ -380,162 +377,47 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="logika-matematika">
-<h1>Logika Matematika<a class="headerlink" href="#logika-matematika" title="Link to this heading">#</a></h1>
-<section id="negasi">
-<h2>Negasi<a class="headerlink" href="#negasi" title="Link to this heading">#</a></h2>
-<p>Dalam matematika diskrit, negasi dapat dijelaskan sebagai proses menentukan kebalikan dari pernyataan matematika yang diberikan. Misalkan pernyataan yang diberikan adalah ‘’Saya tidak suka kucing’’ maka negasi dari pernyataan ini adalah ‘’Saya suka kucing’’.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>p</p></th>
-<th class="head"><p>¬p</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>T</p></td>
-<td><p>F</p></td>
-</tr>
-<tr class="row-odd"><td><p>F</p></td>
-<td><p>T</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><a class="reference external" href="https://www.javatpoint.com/negation-in-discrete-mathematics">https://www.javatpoint.com/negation-in-discrete-mathematics</a></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="probabilitas-diskret">
+<h1>Probabilitas Diskret<a class="headerlink" href="#probabilitas-diskret" title="Link to this heading">#</a></h1>
+<section id="pengertian-probabilitas">
+<h2>Pengertian Probabilitas<a class="headerlink" href="#pengertian-probabilitas" title="Link to this heading">#</a></h2>
+<p>Probabilitas adalah konsep matematika yang mengukur kemungkinan terjadinya suatu peristiwa.</p>
+<p>Probabilitas adalah nilai antara 0 dan 1, di mana nilai mendekati 0 menunjukkan kemungkinan rendah dan mendekati 1 menunjukkan kemungkinan tinggi suatu peristiwa terjadi.</p>
+<section id="rumus-probabilitas">
+<h3>Rumus Probabilitas<a class="headerlink" href="#rumus-probabilitas" title="Link to this heading">#</a></h3>
+<p><img alt="Screenshot 2024-12-07 212116" src="https://hackmd.io/_uploads/HJqzcRWE1e.png" /></p>
+<p>Keterangan:</p>
+<ul class="simple">
+<li><p>P(A)  adalah probabilitas peristiwa  A  terjadi.</p></li>
+<li><p>n(A) adalah jumlah kasus yang menguntungkan untuk peristiwa A.</p></li>
+<li><p>n(S)  adalah jumlah total kemungkinan kasus dalam ruang sampel S.</p></li>
+</ul>
 </section>
-<section id="konjungsi">
-<h2>Konjungsi<a class="headerlink" href="#konjungsi" title="Link to this heading">#</a></h2>
-<p>Konjungsi adalah suatu pernyataan p dan q dapat digabungkan dengan menggunakan kata hubung ‘dan’ sehingga membentuk pernyataan majemuk ‘p dan q’ yang disebut konjungsi yang dilambangkan dengan “p∧q”.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>p</p></th>
-<th class="head"><p>q</p></th>
-<th class="head"><p>p ∧ q</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>T</p></td>
-<td><p>T</p></td>
-<td><p>T</p></td>
-</tr>
-<tr class="row-odd"><td><p>T</p></td>
-<td><p>F</p></td>
-<td><p>F</p></td>
-</tr>
-<tr class="row-even"><td><p>F</p></td>
-<td><p>T</p></td>
-<td><p>F</p></td>
-</tr>
-<tr class="row-odd"><td><p>F</p></td>
-<td><p>F</p></td>
-<td><p>F</p></td>
-</tr>
-</tbody>
-</table>
-</div>
 </section>
-<section id="disjungsi">
-<h2>Disjungsi<a class="headerlink" href="#disjungsi" title="Link to this heading">#</a></h2>
-<p>Disjungsi adalah suatu pernyataan p dan q dapat digabungkan dengan menggunakan kata hubung ‘atau’ sehingga membentuk pernyataan majemuk ‘p atau q’ yang disebut disjungsi yang dilambangkan dengan “p∨q”.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>p</p></th>
-<th class="head"><p>q</p></th>
-<th class="head"><p>p∨q</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>T</p></td>
-<td><p>T</p></td>
-<td><p>T</p></td>
-</tr>
-<tr class="row-odd"><td><p>T</p></td>
-<td><p>F</p></td>
-<td><p>T</p></td>
-</tr>
-<tr class="row-even"><td><p>F</p></td>
-<td><p>T</p></td>
-<td><p>T</p></td>
-</tr>
-<tr class="row-odd"><td><p>F</p></td>
-<td><p>F</p></td>
-<td><p>F</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section id="implikasi">
-<h2>Implikasi<a class="headerlink" href="#implikasi" title="Link to this heading">#</a></h2>
-<p>Implikasi adalah hubungan antara dua pernyataan dimana pernyataan kedua merupakan konsekuensi logis dari pernyataan pertama. Implikasi ditandai dengan notasi ‘’. Misalkan p,q adalah pernyataan, implikasi berikut:</p>
-<p>‘ p → q’</p>
-<p>dibaca ‘jika p maka q’.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>p</p></th>
-<th class="head"><p>q</p></th>
-<th class="head"><p>p → q</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>T</p></td>
-<td><p>T</p></td>
-<td><p>T</p></td>
-</tr>
-<tr class="row-odd"><td><p>T</p></td>
-<td><p>F</p></td>
-<td><p>F</p></td>
-</tr>
-<tr class="row-even"><td><p>F</p></td>
-<td><p>T</p></td>
-<td><p>T</p></td>
-</tr>
-<tr class="row-odd"><td><p>F</p></td>
-<td><p>F</p></td>
-<td><p>T</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>dari tabel diatas dapat disimpulkan dalam konsep implikasi bernilai salah jika dan hanya jika sebab bernilai benar namunnakibat bernilai salah.</p>
-<p>contoh pernyataan ‘jika budi sembuh maka budi akan sekolah’</p>
-</section>
-<section id="biimplikasi">
-<h2>Biimplikasi<a class="headerlink" href="#biimplikasi" title="Link to this heading">#</a></h2>
-<p>Biimplikasi adalah suatu pernyataan p dan q dapat digabungkan dengan menggunakan kata hubung ‘jika dan hanya jika’ sehingga membentuk pernyataan majemuk ‘p jika dan hanya jika p’ yang disebut biimplikasi yang dilambangkan dengan “p ↔ q”.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>p</p></th>
-<th class="head"><p>q</p></th>
-<th class="head"><p>p ↔ q</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>T</p></td>
-<td><p>T</p></td>
-<td><p>T</p></td>
-</tr>
-<tr class="row-odd"><td><p>T</p></td>
-<td><p>F</p></td>
-<td><p>F</p></td>
-</tr>
-<tr class="row-even"><td><p>F</p></td>
-<td><p>T</p></td>
-<td><p>F</p></td>
-</tr>
-<tr class="row-odd"><td><p>F</p></td>
-<td><p>F</p></td>
-<td><p>T</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>dari tabel diatas dapat disimpulkan konsep biimplikasi akan bernilai benar jika sebab dan akibatnya (pernyataan p dan q) bernilai sama.</p>
-<p>contoh pernyataan ‘Ayah mendapatkan gaji jika dan hanya jika ayah bekerja’.</p>
-<p><a class="reference external" href="https://www.zenius.net/blog/memahami-logika-matematika-dengan-mudah">https://www.zenius.net/blog/memahami-logika-matematika-dengan-mudah</a></p>
-<p>Buatlah tabel kebenaran untuk~pernyataan berikut $<span class="math notranslate nohighlight">\(P\lor(R\to\ Q)\)</span>$</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}\begin{array}{c|c|c|c|cc}P&amp;Q&amp;R&amp;\ Q&amp;R\to\ Q&amp;P\lor(R\to\ Q)\\\hline\text{Т}&amp;\text{Т}&amp;\text{Т}&amp;\text{-}&amp;\text{T}&amp;\text{T}\\\text{Т}&amp;\text{Т}&amp;\text{F}&amp;\text{-}&amp;\text{T}&amp;\text{T}\\\text{T}&amp;\text{F}&amp;\text{T}&amp;\text{-}&amp;\text{F}&amp;\text{T}\\\text{T}&amp;\text{F}&amp;\text{F}&amp;\text{-}&amp;\text{T}&amp;\text{T}\\\text{F}&amp;\text{T}&amp;\text{T}&amp;\text{-}&amp;\text{T}&amp;\text{T}\\\text{F}&amp;\text{T}&amp;\text{F}&amp;\text{-}&amp;\text{T}&amp;\text{T}\\\text{F}&amp;\text{F}&amp;\text{T}&amp;\text{-}&amp;\text{F}&amp;\text{F}\\\text{F}&amp;\text{F}&amp;\text{F}&amp;\text{-}&amp;\text{T}&amp;\text{T}&amp;\text{}\end{array}\end{split}\]</div>
+<section id="teorema-bayes">
+<h2>Teorema Bayes<a class="headerlink" href="#teorema-bayes" title="Link to this heading">#</a></h2>
+<p>Teorema bayes adalah sebuah teori matematika yang digunakan untuk menghitung probabilitas suatu kejadian berdasarkan informasi yang sudah diketahui sebelumnya. Teori ini pertama kali ditemukan oleh seorang matematikawan Inggris bernama Thomas Bayes pada abad ke-18. Bayes Theorem sangat berguna dalam berbagai bidang, seperti statistik, ilmu komputer, dan kecerdasan buatan.</p>
+<p>Terdapat beberapa konsep utama dalam statistik bayesian, di antaranya:</p>
+<ol class="arabic simple">
+<li><p>Probabilitas Prior (Probabilitas Awal)
+Merupakayan keyakinan awal atau distribusi probabilitas sebelum diperolehnya data tambahan. Prior ini merefleksikan pengetahuan atau keyakinan awal kita tentang parameter yang sedang dipelajari.</p></li>
+<li><p>Likelihood (Peluang)
+Ini merupakan distribusi probabilitas dari data yang diberikan parameter. Memberikan informasi tentang sejauh mana parameter dapat menjelaskan data yang diamati.</p></li>
+<li><p>Posterior (Probabilitas Posterior)
+Merupakan distribusi probabilitas yang diperbarui setelah menggabungkan informasi dari prior dan likelihood. Posterior probability menggambarkan keyakinan kita tentang parameter setelah memperhitungkan data yang diamati.</p></li>
+</ol>
+<p>Torema bayes sendiri yaitu hubungan antara prior, likelihood, dan posterior dinyatakan dalam Teorema Bayes. Secara matematis, teorema Bayes dapat ditulis sebagai berikut:</p>
+<p>P(A|B) = P(B|A) x P(A) / P(B)</p>
+<p>Keterangan :</p>
+<ul class="simple">
+<li><p>P(A|B) adalah probabilitas kejadian A terjadi jika diketahui kejadian B sudah terjadi</p></li>
+<li><p>P(B|A) adalah probabilitas kejadian B terjadi jika diketahui kejadian A sudah terjadi</p></li>
+<li><p>P(A) adalah probabilitas kejadian A terjadi</p></li>
+<li><p>P(B) adalah probabilitas kejadian B terjadi</p></li>
+</ul>
+<p><a class="reference external" href="https://dibimbing.id/blog/detail/apa-itu-probabilitas-rumus-cara-menghitung-contoh">https://dibimbing.id/blog/detail/apa-itu-probabilitas-rumus-cara-menghitung-contoh</a>
+<a class="reference external" href="https://rifqimulyawan.com/kamus/bayes-theorem/">https://rifqimulyawan.com/kamus/bayes-theorem/</a>
+<a class="reference external" href="https://info.populix.co/articles/statistik-bayesian/">https://info.populix.co/articles/statistik-bayesian/</a></p>
 </section>
 </section>
 
@@ -570,22 +452,13 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="aljabar%20boolean%20dan%20gerbang%20logika.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+        <p class="prev-next-title">Aljabar Boolean dan gerbang logika</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="ALGORITMA.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Algoritma</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -604,11 +477,11 @@
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#negasi">Negasi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#konjungsi">Konjungsi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#disjungsi">Disjungsi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implikasi">Implikasi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#biimplikasi">Biimplikasi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengertian-probabilitas">Pengertian Probabilitas</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rumus-probabilitas">Rumus Probabilitas</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teorema-bayes">Teorema Bayes</a></li>
 </ul>
   </nav></div>
 
